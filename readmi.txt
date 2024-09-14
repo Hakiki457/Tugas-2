@@ -1,0 +1,7 @@
+flowchart menentukan bilangan ganjl ganjil
+atau genap:https://drive.google.com/file/d/1O82A1rvq6waohWTHtZw25_wtN_gSyjaw.
+bilangan = int(input("masukkan  coding:bilangan = int(input("masukkan sebuah bilangan: "))
+if bilangan % 2 == 0:
+    print("{bilangan} adalah bilangan genap")
+else:
+    print("{bilangan} adalah bilangan ganjil")
