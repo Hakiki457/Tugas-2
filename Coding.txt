@@ -1,0 +1,13 @@
+1.bilangan1 = float(input("Masukkan bilangan pertama: "))
+bilangan2 = float(input("Masukkan bilangan kedua: "))
+hasil = bilangan1 + bilangan2
+print(f"Hasil penjumlahan {bilangan1} + {bilangan2} = {hasil}")
+2.jari_jari = float(input("masukkan jari-jari lingkaran: "))
+phi = 3,14
+luas = phi * (jari_jari ** 2)
+print(f"luas lingkaran dengan jari-jari {jari_jari} adalah {luas}")
+3.bilangan = int(input("masukkan sebuah bilangan: "))
+if bilangan % 2 == 0:
+    print("{bilangan} adalah bilangan genap")
+else:
+    print("{bilangan} adalah bilangan ganjil")
